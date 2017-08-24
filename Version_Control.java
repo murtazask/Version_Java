@@ -6,7 +6,7 @@ import javax.swing.JLabel;
 import javax.swing.JTextField;
 
 
-public class Version_Control {
+public class Version_Control_1 {
 
 	public static void main(String[] args) {
 		JFrame frame = new JFrame("Login");
@@ -16,9 +16,11 @@ public class Version_Control {
 		JLabel l = new JLabel("Username:");
 		JLabel l2 = new JLabel("Password:");
 		JButton button = new JButton("Login");
+		JButton button1 = new JButton("Sign Up");
 		user.setBounds(140, 100, 100, 20);
 		pass.setBounds(140, 140, 100, 20);
-		button.setBounds(140, 180, 100, 20);
+		button.setBounds(50, 180, 100, 20);
+		button1.setBounds(160, 180, 100, 20);
 		l.setBounds(70, 100, 100, 20);
 		l2.setBounds(70, 140, 100, 20);
 		frame.add(user);
@@ -26,6 +28,7 @@ public class Version_Control {
 		frame.add(l);
 		frame.add(l2);
 		frame.add(button);
+		frame.add(button1);
 		
 		frame.setSize(400,400);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
